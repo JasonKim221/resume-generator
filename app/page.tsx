@@ -65,25 +65,25 @@ export default function Home() {
               Go from rough experience notes to a polished resume in just a few clicks.
             </p>
           </div>
-          <section className="mx-auto max-w-5xl px-6 pb-24">
-  <div className="mb-10 text-center">
+          <section className="mx-auto w-full max-w-6xl px-6 pb-24">
+  <div className="mb-12 text-center">
     <h2 className="text-3xl font-bold md:text-4xl">Simple pricing</h2>
-    <p className="mt-3 text-gray-400">
+    <p className="mt-3 text-lg text-gray-400">
       Start free, then upgrade when you need unlimited tailored resumes.
     </p>
   </div>
 
-  <div className="grid gap-6 md:grid-cols-2">
-    <div className="rounded-2xl border border-gray-800 bg-gray-950 p-8">
+  <div className="grid gap-8 md:grid-cols-2">
+    <div className="rounded-3xl border border-gray-800 bg-gray-950 p-8">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gray-400">
         Free
       </p>
-      <h3 className="mt-4 text-3xl font-bold">$0</h3>
-      <p className="mt-3 text-gray-400">
+      <h3 className="mt-4 text-4xl font-bold">$0</h3>
+      <p className="mt-4 text-gray-400">
         Great for trying the product and creating your first resumes.
       </p>
 
-      <ul className="mt-6 space-y-3 text-gray-300">
+      <ul className="mt-8 space-y-4 text-gray-300">
         <li>• 2 resume generations</li>
         <li>• Job-tailored resume writing</li>
         <li>• PDF download</li>
@@ -97,16 +97,16 @@ export default function Home() {
       </Link>
     </div>
 
-    <div className="rounded-2xl border border-yellow-500/30 bg-yellow-500/10 p-8">
+    <div className="rounded-3xl border border-yellow-500/30 bg-yellow-500/10 p-8">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-300">
         Pro
       </p>
-      <h3 className="mt-4 text-3xl font-bold">$5/month</h3>
-      <p className="mt-3 text-gray-300">
+      <h3 className="mt-4 text-4xl font-bold">$5/month</h3>
+      <p className="mt-4 text-gray-200">
         For users who want unlimited tailored resumes and ongoing access.
       </p>
 
-      <ul className="mt-6 space-y-3 text-gray-200">
+      <ul className="mt-8 space-y-4 text-gray-200">
         <li>• Unlimited resume generations</li>
         <li>• Tailored to job descriptions</li>
         <li>• PDF download</li>
