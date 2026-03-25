@@ -65,6 +65,63 @@ export default function Home() {
               Go from rough experience notes to a polished resume in just a few clicks.
             </p>
           </div>
+          <section className="mx-auto max-w-5xl px-6 pb-24">
+  <div className="mb-10 text-center">
+    <h2 className="text-3xl font-bold md:text-4xl">Simple pricing</h2>
+    <p className="mt-3 text-gray-400">
+      Start free, then upgrade when you need unlimited tailored resumes.
+    </p>
+  </div>
+
+  <div className="grid gap-6 md:grid-cols-2">
+    <div className="rounded-2xl border border-gray-800 bg-gray-950 p-8">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gray-400">
+        Free
+      </p>
+      <h3 className="mt-4 text-3xl font-bold">$0</h3>
+      <p className="mt-3 text-gray-400">
+        Great for trying the product and creating your first resumes.
+      </p>
+
+      <ul className="mt-6 space-y-3 text-gray-300">
+        <li>• 2 resume generations</li>
+        <li>• Job-tailored resume writing</li>
+        <li>• PDF download</li>
+      </ul>
+
+      <Link
+        href="/signup"
+        className="mt-8 inline-block w-full rounded-xl bg-white px-4 py-3 text-center font-semibold text-black transition hover:scale-[1.01]"
+      >
+        Start Free
+      </Link>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-500/30 bg-yellow-500/10 p-8">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-300">
+        Pro
+      </p>
+      <h3 className="mt-4 text-3xl font-bold">$5/month</h3>
+      <p className="mt-3 text-gray-300">
+        For users who want unlimited tailored resumes and ongoing access.
+      </p>
+
+      <ul className="mt-6 space-y-3 text-gray-200">
+        <li>• Unlimited resume generations</li>
+        <li>• Tailored to job descriptions</li>
+        <li>• PDF download</li>
+        <li>• Faster iteration for applications</li>
+      </ul>
+
+      <Link
+        href="/signup"
+        className="mt-8 inline-block w-full rounded-xl bg-white px-4 py-3 text-center font-semibold text-black transition hover:scale-[1.01]"
+      >
+        Upgrade to Pro
+      </Link>
+    </div>
+  </div>
+</section>
         </div>
       </section>
     </main>
