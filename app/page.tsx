@@ -25,9 +25,9 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg text-gray-300 md:text-xl">
-          Create polished, ATS-friendly resumes tailored to the jobs you want —
-          powered by AI and built for speed.
-        </p>
+  Built for students and job seekers who want tailored, ATS-friendly resumes
+  for internships and entry-level roles.
+</p>
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
