@@ -1,6 +1,17 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <nav className="mx-auto flex max-w-6xl items-center justify-end px-6 pt-6">
+  <div className="flex gap-4">
+    <Link href="/login" className="text-sm text-gray-300 hover:text-white">
+      Log In
+    </Link>
+    <Link href="/signup" className="text-sm text-gray-300 hover:text-white">
+      Sign Up
+    </Link>
+  </div>
+</nav>
       <section className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 text-center">
         <div className="max-w-3xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-gray-400">
@@ -17,13 +28,20 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <button className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:scale-105">
-              Get Started
-            </button>
-            <button className="rounded-full border border-gray-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-900">
-              See Demo
-            </button>
-          </div>
+  <Link
+    href="/signup"
+    className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:scale-105"
+  >
+    Get Started
+  </Link>
+
+  <Link
+    href="/login"
+    className="rounded-full border border-gray-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-900"
+  >
+    Log In
+  </Link>
+</div>
         </div>
 
         <div className="mt-20 grid w-full max-w-5xl gap-6 md:grid-cols-3">
